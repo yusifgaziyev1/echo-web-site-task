@@ -1,0 +1,28 @@
+@mixin cssReset ($box-sizing, $margin, $padding, $text-decoration, $list-style) {
+    box-sizing: $box-sizing;
+    margin: $margin;
+    padding: $padding;
+    text-decoration: $text-decoration;
+    list-style: $list-style;
+}
+
+@mixin displayFlex ($display, $justify-content) {
+    display: $display;
+    justify-content: $justify-content;
+}
+
+@mixin displayFlex2 ($display, $align-items) {
+    display: $display;
+    align-items: $align-items;
+}
+
+@mixin displayFlex3 ($display, $justify-content, $align-items) {
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin containerWidth ($width) {
+    width: $width;
+}
+
